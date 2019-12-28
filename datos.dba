@@ -1,0 +1,76 @@
+REM *** Include File: datos.dba ***
+REM Created: 04/02/2016 11:29:54
+REM
+REM Included in Project: C:\Program Files (x86)\The Game Creators\Dark Basic Professional Online\Projects\PC Athletic\PC Athletic.dbpro
+REM
+REM DATOS DEL PROGRAMA
+
+REM TIPOS DE DATOS
+REM
+
+REM TIPO JUGADOR ATHLETIC
+TYPE jugath
+nombre AS STRING
+edad AS INTEGER
+posicion as integer
+foto as string
+puntos as integer
+valor as integer
+troja as integer
+tamarilla as integer
+endtype
+
+REM TIPO JUGADIOR MERCADO
+Type jugmerca
+nombre as string
+edad as integer
+posicion as integer
+foto as string
+puntos as integer
+valor as integer
+troja as integer
+tamarilla as integer
+equipo as string
+endtype
+
+REM TIPO EQUIPOS
+type equipos
+nombre as string
+escudo as string
+valor as integer
+pj as integer
+pg as integer
+pe as integer
+pp as integer
+gf as integer
+gc as integer
+puntos as integer
+endtype
+
+
+REM DECLARACIÓN DE VARIABLES
+REM
+
+REM JUGADORES ATHLETIC
+global dim jugadorath(25) as jugath
+REM JUGADORES FILIAL
+global dim jugadorfilial(25) as jugath
+REM JUGADORES MERCADO
+global dim jugadormercado(200) as jugmerca
+REM EQUIPOS PRIMERA
+global dim equipos1(20) as equipos
+REM EQUIPOS SEGUNDA
+global dim equipos2(22) as equipos
+REM EQUIPOS COPA DEL REY
+global dim equiposrey(100) as equipos
+REM EQUIPOS EUROPA
+global dim equiposeuropa(200) as equipos
+REM EQUIPOS MUNDO
+global dim equiposmundo(20) as equipos
+
+
+
+
+
+
+

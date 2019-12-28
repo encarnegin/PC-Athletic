@@ -1,0 +1,69 @@
+; **** Dark BASIC Professional Project File ****
+version=DBP1.00
+project name=PC Athletic
+
+comments1=PC Athletic es una versión para PC 
+comments2=de un programa que hice siendo 
+comments3=crío en mi AMSTRAD CPC6128.
+
+todo1=0Programa de Introducción de datos
+todo2=1Icono para el Exe
+
+; **** source file information ****
+main=PC Athletic.dba
+include1=Introduccion datos.dba
+include2=funciones.dba
+include3=datos.dba
+; The compiler only needs to read the final source from this entry - the editor
+; handles include files, concatenation, etc.
+final source=_Temp.dbsource
+
+; The editor will replace any references to %temp in the EXE path/filename
+executable=PC Athletic.exe
+
+; **** Executable Information  ***
+; build types: exe, media, installer,alone
+build type=media
+
+; ** Media file compression **
+compression=NO
+; ** Media file encryption **
+encryption=NO
+; ** Display the card options screen window? **
+card options window=NO
+
+; **** debugger information ****
+; If the editor sets this to yes, it is running in debug mode
+CLI=NO
+
+; **** display mode information ****
+app title=DarkBASIC Pro Project
+; graphics mode options: fullscreen, window, desktop,fulldesktop, hidden
+graphics mode=fullscreen
+fullscreen resolution=1024x768x16
+; arbitrary sizes are valid for windowed mode
+window resolution=640x480
+
+; **** External Files Information ****
+; **** Media ****
+media root path=
+; example entries: media1=graphics\*.jpg
+media1=portada.jpg
+media2=himno.mid
+
+; **** Icons ****
+icon1=C:\Program Files (x86)\The Game Creators\Dark Basic Professional Online\Media\Icons\ath.ico
+
+; **** Cursors ****
+
+; **** Version Info ****
+VerComments=
+VerCompany=Adrian Zarza Garcia
+VerFileDesc=
+VerFileNumber=v1.0
+VerInternal=
+VerCopyright=Adrian Zarza Garcia
+VerTrademark=
+VerFilename=
+VerProduct=PC Athletic
+VerProductNumber=v1.0

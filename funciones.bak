@@ -1,0 +1,16 @@
+REM *** Include File: funciones.dba ***
+REM Created: 03/02/2016 19:29:38
+REM
+REM Included in Project: C:\Program Files (x86)\The Game Creators\Dark Basic Professional Online\Projects\PC Athletic\PC Athletic.dbpro
+REM
+
+rem Función que carga la pantalla de inicio y la música de presentación y espera a que pulsemos una tecla
+function presentacion()
+load bitmap "portada.jpg",0
+load music "himno.mid",1
+loop music, 1
+wait key
+stop music,1
+endfunction
+
+

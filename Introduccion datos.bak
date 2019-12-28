@@ -1,0 +1,12 @@
+REM *** Include File: Introduccion datos.dba ***
+REM Created: 03/02/2016 19:24:11
+REM
+REM Incluído en Proyecto: C:\Program Files (x86)\The Game Creators\Dark Basic Professional Online\Projects\PC Athletic\PC Athletic.dbpro
+REM
+
+rem Ficheros incluidos
+#include "funciones.dba"
+
+
+
+
